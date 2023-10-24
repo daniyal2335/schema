@@ -33,7 +33,8 @@
                             <xs:element name="facultyage">
                             <xs:simpleType>
                                 <xs:restriction base="xs:integer">
-           
+                               <xs:minExclusive value="17"></xs:minExclusive>
+                               <xs:maxExclusive value="31"></xs:maxExclusive>
                                 </xs:restriction>
                             </xs:simpleType>
                             </xs:element>
